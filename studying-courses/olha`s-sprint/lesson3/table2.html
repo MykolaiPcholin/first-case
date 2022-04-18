@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./slyle.css">
+</head>
+<body>
+    <table class="second-table">
+        <caption>Вторая таблица, РОДИТЕЛЬСКАЯ</caption>
+        <tr>
+            <td class="two-first-second" colspan="2">1-2</td>
+            <td class="two-third">3</td>
+        </tr>
+        <tr>
+            <td class="two-fourth">4</td>
+            <td class="two-three" rowspan="2" colspan="2">
+                <table class="third-table">
+                    <caption>Вторая таблица, ДОЧЕРНЯЯ</caption>
+                    <tr>
+                        <td class="three-first">1</td>
+                        <td class="three-second-fifth-eigth" rowspan="3">2-5-8</td>
+                        <td class="three-third-sixth" rowspan="2">3-6</td>
+                    </tr>
+                    <tr>
+                        <td class="three-fourth-seventh" rowspan="2">4-7</td>
+                    </tr>
+                    <tr>
+                        <td class="three-ninth">9</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td class="two-seventh">7</td>
+        </tr>
+    </table>
+</body>
+</html>

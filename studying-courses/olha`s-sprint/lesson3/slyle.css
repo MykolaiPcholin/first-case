@@ -1,0 +1,82 @@
+.first-table{
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+.one-first-fourth-seventh,
+.one-second,
+.one-third,
+.one-fifth-sixth,
+.one-eighth,
+.one-ninth {
+    width: 33.33%;
+    height: 50px;
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: top;
+}
+.one-fifth-sixth{
+    height: 200px;
+}
+
+.second-table{
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: top;
+}
+.third-table{
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    text-align: center;
+    vertical-align: top;
+}
+
+.two-first-second,
+.two-third,
+.two-fourth,
+.two-three,
+.two-seventh{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+.two-three{
+    width: 72%;
+}
+
+.two-first-second{
+    width: 40%;
+    height: 50px;
+}
+.two-third{
+    width: 60%;
+    height: 50px;
+}
+.two-fourth,
+.two-seventh{
+    width: 28%;
+    height: 100px;
+}    
+.three-first,
+.three-second-fifth-eigth,
+.three-third-sixth,
+.three-fourth-seventh,
+.three-ninth{
+    border-collapse: collapse;
+    border: 1px solid #000000;
+    width: 33.33%;
+}
+.three-first,
+.three-ninth{
+    height: 100px;
+}
+.three-fourth-seventh,
+.three-third-sixth{
+    height: 200px;
+}

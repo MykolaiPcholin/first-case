@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="container">
+    <header>
+        <h1>Статьи, Каталог, Контакты, Галерея, Навигация, Регистрация</h1>
+        <a class="menu-hyperlink"
+        href="./articles.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Статьи</a> 
+        <a class="menu-hyperlink"
+        href="./catalog.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Каталог</a> 
+        <a class="menu-hyperlink"
+        href="./contacts.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Контакты</a> 
+        <a class="menu-hyperlink"
+        href="./gallery.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Галерея</a> 
+        <a class="menu-hyperlink"
+        href="./page-nav.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Навигация</a> 
+        <a class="menu-hyperlink"
+        href="./registration.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Регистрация</a> 
+        <a class="menu-hyperlink"
+        href="../index.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >index.html</a>
+    </header>
+    <div class="registration-form">
+        <form action="../scripts/register.php" method="get">
+            <label for="fname">Фамилия</label>
+            <input class="fio" type="text" id="fname" name="fname">
+            <label for="thname">Имя</label>
+            <input class="fio" type="text" id="thname" name="thname">
+            <label for="thdname">Отчество</label>
+            <input class="fio" type="text" id="thdname" name="thdname">
+            <label for="photo">Добавьте фотографию</label>
+            <input type="file" id="photo" name="photo">
+            <label for="email">Aдрес электронной почты</label>
+            <input type="email" id="email" name="email">
+            <label for="password">Пароль</label>
+            <input type="password" id="password" name="password">
+            <label for="siteadress">Адрес сайта</label>
+            <input type="url" id="siteadress" name="siteadress" value="mysite.name">
+            <label for="gender">Ваш пол:</label>
+            <div class="gender">
+                <input placeholder="Мужской" checked type="radio" name="gender" value="male" /> Мужской
+                <input placeholder="Женский" type="radio" name="gender" value="female"/> Женский
+            </div>
+            <label for="birthday">Ваша дата рождения:</label>
+            <input type="date" id="birthday" name="birthday">
+            <label for="cookpref">Выберете предпочитаемую кухню:</label>
+            <div class="cooking">
+                <input type="checkbox" id="cookeuropean" name="cookpref" placeholder="Европейская"> Европейская<br>
+                <input type="checkbox" id="cookindian" name="cookpref" placeholder="Индийская"> Индийская <br>
+                <input type="checkbox" id="cookasian" name="cookpref" placeholder="Восточная"> Восточная <br>
+                <input type="checkbox" id="cookfastfood" name="cookpref" placeholder="Фастфуд"> Фастфуд
+            </div>
+            <label for="aboutme">О себе:</label>
+            <textarea id="aboutme" name="aboutme" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Зарегистрироваться">
+            <input type="reset" value="Очистить форму"><br>
+        </form>
+    </div>
+    <footer>
+        <span>
+            &copy;  <a href="https://nickolay-pcholin.000webhostapp.com/" 
+                        rel="noreferrer noopener" 
+                        target="_blank"
+                    >Nickolay Pcholin</a> 2022
+        </span>
+    </footer>
+</body>
+</html>

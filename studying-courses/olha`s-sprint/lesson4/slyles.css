@@ -1,0 +1,155 @@
+/*
+*{box-sizing: border-box;} 
+*/
+.four-colors{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border: 1px solid #000000;
+    left: 20px;
+    top: 12px;
+    z-index: 4;
+}
+.green{
+    width: 100px;
+    height: 100px;
+    background-color: #008000;
+    position: absolute;
+    left: 0px;
+    bottom: 100px;
+}
+.white{
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 100px;
+    bottom: 100px;
+}
+.black{
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    position: absolute;
+    bottom: 0px;
+}
+.brown{
+    width: 100px;
+    height: 100px;
+    background-color: #a52a2a;
+    position: absolute;
+    left: 100px;
+    bottom: 0px;
+    border-style: none;
+}
+.grey{
+    width: 400px;
+    height: 200px;
+    background-color: #808080;
+    border: 1px solid #000000;
+    left: 240px;
+    top: 20px;
+    position: absolute;
+    z-index: 3;
+}
+.red {
+    width: 360px;
+    height: 160px;
+    background-color: #ff0000;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+.blue-first{
+    width: 140px;
+    height: 140px;
+    background-color: #0000ff;
+    z-index: 2;
+    position: absolute;
+    left: 160px;
+    top: 170px;
+}
+.blue-second{
+    width: 140px;
+    height: 140px;
+    background-color: #0000ff;
+    z-index: 5;
+    position: absolute;
+    left: 320px;
+    top: 170px;
+}
+.blue-third{
+    width: 140px;
+    height: 140px;
+    background-color: #0000ff;
+    z-index: 1;
+    position: absolute;
+    left: 480px;
+    top: 170px;
+}
+
+.menu-container{
+    width: 840px;
+    height: 240px;
+    background-color: #ffffff;
+    position: relative;
+    top: 10px;
+}
+
+.menu-img{
+    width: 100px;
+    height: 100px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.menu-text{
+    height: 60px;
+    width: 160px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #ff0000;
+    color: #ffffff;
+    vertical-align: middle;
+    text-align: center;
+    box-sizing: border-box;
+}
+.menu-icon1:hover > a > .menu-text,
+.menu-icon2:hover > a > .menu-text,
+.menu-icon3:hover > a > .menu-text,
+.menu-icon4:hover > a > .menu-text,
+.menu-icon5:hover > a > .menu-text{
+    background-color: #ffff00;
+    color: #0000ff;
+} 
+.menu-icon1:hover,
+.menu-icon2:hover,
+.menu-icon3:hover,
+.menu-icon4:hover,
+.menu-icon5:hover{
+    outline: 1px solid #000000;
+}
+.menu-icon1{
+    position: absolute;
+    left: 0px;
+    background-color: #808080;
+}
+.menu-icon2{
+    position: absolute;
+    left: 170px;
+    background-color: #808080;
+}
+.menu-icon3{
+    position: absolute;
+    left: 340px;
+    background-color: #808080;
+}
+.menu-icon4{
+    position: absolute;
+    left: 510px;
+    background-color: #808080;
+}
+.menu-icon5{
+    position: absolute;
+    left: 680px;
+    background-color: #808080;
+}

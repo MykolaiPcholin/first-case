@@ -1,0 +1,156 @@
+/* */
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html {
+    background-image: url('../img/ed4bbd84d057d0b2133368662e6d7309.jpg'), url('../img/cool-background.png');
+    background-repeat: no-repeat;
+    background-position: right top, 100%;
+    background-size: 60px, cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100vw;
+}
+header{
+    margin: 10px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1280px;
+    position: relative;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.menu-hyperlink{
+    color: #fee4c4;
+    background-color: #808080;
+}
+
+/* articles page */
+.article-page-content-header{
+    color: #2f5040;
+    text-decoration: none;
+    border-bottom-width: 4px;
+    border-bottom-color: #000000;
+}
+.article-text-preview{
+    background-color: #fffff0;
+}
+.article-read-more:hover {
+    text-decoration: none;
+    color: #f400f4;
+}
+.articles-read-comments-text{
+    color: #7e0000;
+}
+.article-line{
+    width: 300px;
+    margin-left: 0px;
+}
+.article-header{
+    text-align: center;
+}
+.first-letter::first-letter{
+    font-size: 48px;
+    color: #ff0000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+/* catalog page */
+.unordered-list-header{
+    list-style: none;
+    width: 300px;
+    font-size: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #7fffd4;
+}
+.unordered-list-item{
+    list-style: none;
+    width: 250px;
+    font-size: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f400f4
+}
+.unordered-list-header li::before{
+    content: ' ';
+    display: inline-block;
+    background-image: url('../img/ebay_curved_128px.png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    margin-top: 6px;
+}
+
+.unordered-list-item li::before{
+    content: ' ';
+    display: inline-block;
+    background-image: url('../img/credit_card_mastercard_gold.png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+}
+
+.new::after{
+    content: 'New!';
+    color: #ff0000;
+    background-color: #ffff00;
+    margin-left: 6px;
+}
+
+/* gallery page */
+.gallery-background{
+    background-image: url('../img/11x0516n8df.jpg');
+    background-repeat: space;
+    background-size: 150px;
+    margin: 20px;
+}
+.gallery-image {
+    width: 50%;
+    outline: 2px solid #ff0000;
+}
+.gallery-image:hover{
+    outline: none;
+}
+
+/* registration page */
+
+.registration-form{
+    display: inline-block;
+    align-content: center;
+    background-color: #008cff;
+    margin-left: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    flex-direction: space-around;
+}
+form label {
+    flex-direction: space-around;
+}
+.cooking{
+    flex-direction: row;
+}
+.gender input:hover  {
+    outline: 3px dashed #000000;
+}
+.cooking input:hover {
+    outline: 3px dashed #000000;
+}
+.fio{
+    text-transform: capitalize;
+}

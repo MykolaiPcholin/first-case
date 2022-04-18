@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body class="container">
+    <header>
+        <h1>Статьи, Каталог, Контакты, Галерея, Навигация, Регистрация</h1>
+        <a class="menu-hyperlink"
+        href="./articles.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Статьи</a> 
+        <a class="menu-hyperlink"
+        href="./catalog.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Каталог</a> 
+        <a class="menu-hyperlink"
+        href="./contacts.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Контакты</a> 
+        <a class="menu-hyperlink"
+        href="./gallery.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Галерея</a> 
+        <a class="menu-hyperlink"
+        href="./page-nav.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Навигация</a> 
+        <a class="menu-hyperlink"
+        href="./registration.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >Регистрация</a> 
+        <a class="menu-hyperlink"
+        href="../index.html" 
+        rel="noreferrer noopener" 
+        target="_self"
+        >index.html</a>
+    </header>
+    <div>
+        <h2>Наши контакты</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d460.3485755797117!2d23.850377182125047!3d49.255080486765245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473a6a1c25d03863%3A0xa1dd7f5f7a63935b!2z0YPQuy4g0KTQuNC70LDRgNC10YLQsCDQmtC-0LvQtdGB0YHRiywgMTUsINCh0YLRgNGL0LksINCb0YzQstC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgODI0MDA!5e0!3m2!1sru!2sua!4v1648470947023!5m2!1sru!2sua" 
+        width="400" 
+        height="300" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <form action="../scripts/contacts.php" method="get">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" name="name" placeholder="Имя"><br><br>
+            <label for="number">Телефон:</label>
+            <input type="tel" id="number" name="number" placeholder="+38 (---) --- -- --" pattern="+38[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com"><br><br>
+            <label for="question">Задайте Ваш вопрос:</label><br>
+            <textarea id="question" name="question" rows="4" cols="50"></textarea><br>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Очистить"><br><br>
+        </form>
+    </div>
+    <footer>
+        <span>
+            &copy;  <a href="https://nickolay-pcholin.000webhostapp.com/" 
+                        rel="noreferrer noopener" 
+                        target="_blank"
+                    >Nickolay Pcholin</a> 2022
+        </span>
+    </footer>
+</body>
+</html>
