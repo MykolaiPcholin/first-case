@@ -1,0 +1,245 @@
+html {
+    background-color: #ffffff;
+}
+body {
+    height: 830px;
+    width: 1300px;
+/*    background-color: rgba(245, 232, 198, 1); */
+    margin: 0 auto;
+    padding: 0;
+}
+header {
+    background-color: rgba(140, 10, 13, 1);
+    color: #FFE394;
+    height: 70px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+/* header section */
+.logo{
+    position: relative;
+    top: 15px;
+    left: 66px;
+}
+
+.header-about,
+.header-news,
+.header-stores,
+.header-special-projects,
+.header-career,
+.header-contacts{
+    margin-right: 15px;
+    margin-left: 15px;
+    font-family: minionpro-bold;
+    font-size: 14px;
+}
+.header-about{
+    margin-left: 125px;
+}
+header > span > a {
+    text-decoration: none;
+    color: #FFE394;
+}
+.article-language-logo{
+    position: relative;
+    bottom: 18px;
+    left: 1160px;
+}
+.article-language-logo span {
+    font-family: minionpro-bold;
+    font-size: 18px;
+    display: inline-block;
+    vertical-align: top;
+}
+/* main section */
+.container{
+    height: 690px;
+    background: url('./img/backgroundimg1.png');
+    /* background-position:relative, absolute; */
+    background-size: cover, 100% 100%;
+    margin-bottom: 0px;
+    position: relative;
+    top: 0px;
+    /* opacity: 0.8; */
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(245, 232, 198, 1);
+    opacity: 0.8;
+    position: absolute;
+}
+.slider-background-rectangle{
+    position: absolute;
+    top: 25px;
+    left: 65px;
+}
+.slider-background-img{
+    position: absolute;
+    left: 65px;
+    top: 25px;
+}
+.slider-header{
+    display: inline-block;
+    position: absolute;
+    font-family: opensans;
+    font-size: 60px;
+    color: #35040C;
+    top: 55px;
+    left: 425px;
+}
+.slider-button{
+    position: absolute;
+    top: 132px;
+    left: 558px;
+    width: 190px;
+    height: 44px;
+    background-color: rgba(246, 204, 121, 1);
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(191, 103, 13, 1);
+    border-style: none;
+    font-family: minionpro-bold;
+    font-weight: bold;
+    font-size: 24px;
+}
+.left-arrow-cir{
+    position: absolute;
+    left: 94px;
+    top: 180px;
+}
+.right-arrow-cir{
+    position: absolute;
+    left: 1152px;
+    top: 180px;
+}
+.slider-circle1{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 336px;
+    left: 620px;
+}
+.slider-circle2{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: rgba(191, 103, 13, 1);
+    border-radius: 50%;
+    top: 336px;
+    left: 644px;
+}
+.slider-circle3{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    top: 336px;
+    left: 668px;
+}
+.text-area1{
+    display: inline-block;
+    position: absolute;
+    top: 390px;
+    left: 65px;
+}
+.text-area2{
+    display: inline-block;
+    position: absolute;
+    top: 540px;
+    left: 65px;
+}
+.text-block1,
+.text-block2,
+.text-block3,
+.text-block4{
+    display: inline-block;
+    font-family: minionpro-bold;
+    font-weight: bold;
+    font-size: 18px;
+    vertical-align: top;
+    text-align: left;
+}
+.text-block5,
+.text-block6,
+.text-block7,
+.text-block8{
+    display: inline-block;
+    font-family: minionpro-regular;
+    font-size: 16px;
+    vertical-align: top;
+    text-align: left;
+}
+.text-block1,
+.text-block5{
+    width: 276px;
+    margin-right: 20px;
+}
+.text-block2,
+.text-block6{
+    width: 276px;
+    margin-right: 22px;
+}
+.text-block3,
+.text-block7{
+    width: 232px;
+    margin-right: 64px;
+}
+.text-block4,
+.text-block8{
+    width: 250px;
+}
+/* footer section */
+footer {
+    background-color: rgba(140, 10, 13, 1);
+    color: #F8C669;
+    height: 70px;
+}
+.footer-website{
+    width: 270px;
+    margin-left: 66px;
+    display: inline-block;
+    margin-right: 26px;
+    font-family: minionpro-bold;
+    font-size: 14px;
+}
+
+.footer-adress{
+    display: inline-block;
+    width: 276px;
+    margin-right: 20px;
+    margin-top: 12px;
+    font-family: minionpro-bold;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.footer-tel{
+    display: inline-block;
+    width: 144px;
+    text-align: right;
+    padding-right: 155px;
+    margin-top: 12px;
+    font-family: minionpro-bold;
+    font-size: 14px;
+    line-height: 1.4;
+}
+footer > p > a {
+    text-decoration: none;
+    color: #F8C669;
+}
+.footer-email{
+    display: inline-block;
+    width: 186px;
+    margin-top: 12px;
+    font-family: minionpro-bold;
+    font-size: 14px;
+    line-height: 1.4;
+}
+.f-icon{
+    margin-right: 12px;
+}
