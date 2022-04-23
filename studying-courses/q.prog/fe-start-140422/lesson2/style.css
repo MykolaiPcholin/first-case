@@ -1,0 +1,38 @@
+body {
+    background-color: #e5e5e5;
+}
+main {
+    width: 1024px;
+    margin: 0 auto;;
+    background-color: #ffffff;
+    padding: 25px 13px 25px 15px;
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.header{
+    /* display: inline-block; */
+    font-family: KingsBureauGrot;
+    font-size: 20px;
+    font-weight: 700 bold;
+    color: #000000;
+}
+.text__default{
+    /* display: inline; */
+    font-size: 14px;
+    font-family: Open Sans;
+    font-weight: 400;
+    color: #333333;
+}
+.text__center {
+    text-align: center;
+}
+.text__right {
+    text-align: right;
+}
+.img__medium{
+    width: 767px;
+    margin-left: 12%;
+}
