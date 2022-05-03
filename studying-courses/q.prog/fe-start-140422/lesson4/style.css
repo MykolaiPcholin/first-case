@@ -1,0 +1,178 @@
+html{
+    width: 100%;
+    background-color: #DCDCDC;
+}
+body {
+    margin: 0;
+}
+header{
+    height: 21%;
+}
+main{
+    margin-top: 5.85%;
+    background-color: #DCDCDC;
+    height: 70%;
+    position: relative;
+}
+footer{
+    height: 9%;
+    background: #202846;
+}
+* {
+    font-family: 'PT Sans';
+}
+.header__nav > ul{
+    height: 9%;
+    background: #202846;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    align-items:center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.header__nav > ul > li:first-child {
+    margin-right: 16%;
+}
+.nav__button{
+    list-style: none;
+    flex-direction: row;
+    vertical-align: middle;
+}
+
+.header__nav li > a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.page__title{
+    background-color: #C6C6DC;
+    font-size: 3em;
+    font-style: italic;
+    height: 14%;
+    padding: auto;
+    padding-left: 12%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.card__info{
+    position: relative;
+    width: 78%;
+    height: 27.0%;
+    margin: 2.25em auto;
+    box-sizing: border-box;
+    padding: 2.6% 4.0% 2.6% 3.4%;
+    display: flex;
+    flex-direction: row;
+}
+.card__img{
+    width: 32.66%;
+    margin-right: 9.5%;
+}
+.card__about{
+    width: 67.9%;
+    height: 22.6%;
+    margin: 0 0;
+    box-sizing: border-box;
+}
+.card__header{
+    font-size: 2.25em;
+    font-style: italic;
+    margin: 0;
+}
+.line{
+    border: 3px solid #FFFFFF;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+.card__text{
+    background-color: #D7D7DD;
+    font-size: 1.375em;
+    text-align: center;
+    margin: 0;
+    padding: 1.375em;
+}
+.card__star{
+    position: absolute;
+    top: 10%;
+    left: 95%;
+}
+svg.card__star:hover path{
+    fill: gold;
+}
+
+.card__button{
+    width: 17.9%;
+    height: 15.55%;
+    background-color: #202846;
+    position: absolute;
+    top: 83%;
+    left: 86%;
+    border-radius: 30px;
+    font-size: 1.5em;
+    /* border- */
+}
+.button__top{
+    position:fixed;
+    left: 93%;
+    bottom: 18%;
+}
+.circle{
+    position: relative;
+}
+.arrow{
+    position: absolute;
+    left: 37%;
+    top: 30%;
+}
+
+
+.footer__text{
+    box-sizing: border-box;
+    font-size: 2.25em;
+    margin-left: 3.125%;
+    padding-top: 2.0%;
+    padding-bottom: 2.0%;
+}
+.grey {
+    color: #EEECF1;
+}
+.blue{
+    color: #202846;
+}
+.white{
+    color: #ffffff;
+}
+.darkgrey{
+    background-color: #BDBDC6;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Vector */
+
+/* position: absolute;
+left: 3.12%;
+right: 3.12%;
+top: 4.69%;
+bottom: 4.69%;
+
+background: #FFFFFF;
+ */

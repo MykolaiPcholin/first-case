@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    background-color: #212529;
+}
+.header {
+display: flex;
+justify-content: space-between;
+}
+li.nav-item{
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.header__btn{
+    color: #212529;
+}
