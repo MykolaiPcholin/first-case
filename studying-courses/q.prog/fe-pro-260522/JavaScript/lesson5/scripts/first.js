@@ -34,11 +34,12 @@ const doc = {
 }
 doc.show();
 
-/* let property = prompt("Что создаем?");
+let property = prompt("Что создаем?");
 let argument = prompt("Что в него вносим?");
-chanhing(property, argument);  */
-chanhing(fgd, 345);
-chanhing(fgаd, f345f);
-/* doc[property] = `${argument}`; */
+doc.changing(property, argument); 
+
+doc.changing("fgd", 345);
+doc.changing("fgаd", "f345f");
+
 doc.showw();
 
