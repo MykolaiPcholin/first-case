@@ -24,7 +24,10 @@ const doc = {
     },
     showw: function () {
         for (let element in doc) {
-            document.write(doc[element] + "</br>");
+            if (typeof doc[element] !== "function") {
+                typeof (console.log(doc[element]));
+                document.write(doc[element] + "</br>");
+            }
         }
     },
 
